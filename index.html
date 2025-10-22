@@ -27,8 +27,42 @@
   </head>
   <body>
     <header>
-      <h1>🏏 CrickBurst</h1>
-      <p>Live Cricket Scores & Match Updates</p>
+     <header>
+  <div class="logo">
+    <!-- Cleaned & balanced SVG logo -->
+    <svg width="160" height="60" viewBox="0 0 260 80" xmlns="http://www.w3.org/2000/svg">
+  <!-- Red Cricket Ball Gradient -->
+  <defs>
+    <radialGradient id="redBall" cx="30%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#ff5555"/>
+      <stop offset="100%" stop-color="#b00000"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Red Cricket Ball -->
+  <circle cx="40" cy="40" r="35" fill="url(#redBall)" />
+
+  <!-- White seam lines -->
+  <line x1="20" y1="35" x2="60" y2="35" stroke="white" stroke-width="3" stroke-linecap="round" />
+  <line x1="20" y1="45" x2="60" y2="45" stroke="white" stroke-width="3" stroke-linecap="round" />
+
+  <!-- CrickBurst Text (no space, full brand color scheme) -->
+  <text x="80" y="50"
+        font-size="34"
+        font-family="Poppins, Arial, sans-serif"
+        font-weight="700"
+        fill="#1BB74F"
+        letter-spacing="1">
+    Crick<tspan fill="#ffffff">Burst</tspan>
+  </text>
+</svg>
+
+
+    <p>Live Cricket Scores & Match Updates</p>
+  </div>
+</header>
+
+      
     </header>
 
     <main>

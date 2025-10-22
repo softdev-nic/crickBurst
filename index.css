@@ -11,7 +11,25 @@ header {
   background-color: #111;
   padding: 20px;
   border-bottom: 2px solid #ffcc00;
+    text-align: center;
+  background-color: #061806; /* deep green-black background */
+  padding: 25px 0;
+  border-bottom: 2px solid #1bb74f;
 }
+
+
+.logo svg {
+  display: block;
+  margin: 0 auto;
+}
+
+.logo p {
+  color: #ffffff;
+  font-size: 1.1rem;
+  margin-top: 8px;
+  letter-spacing: 0.4px;
+}
+
 
 h1 {
   color: #ffcc00;
