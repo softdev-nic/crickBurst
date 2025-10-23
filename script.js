@@ -1,5 +1,5 @@
  // CrickBurst Live Cricket Script
-const API_KEY = "YOUR_API_KEY_HERE"; // Replace with your CricketData.org API key
+const API_KEY = "ddc905e0-36fd-4182-96e4-54d6b774e1ef"; // Replace with your CricketData.org API key
 let offset = 0; // Start from first set of matches
 
 const scoresDiv = document.getElementById("scores");
